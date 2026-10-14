@@ -1,0 +1,22 @@
+# Exclude machine data, credentials, build products, and runtime state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.csv
+*.xlsx
+*.log
+*.bak
+*.backup-*
+vendor/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+Screenshots/
+*.ex5
+node_modules/
+dist/
