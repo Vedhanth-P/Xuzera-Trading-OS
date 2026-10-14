@@ -47,7 +47,7 @@ This file turns the consolidated 364-item list into an implementable roadmap for
 - Trading and leveraged products involve substantial risk; losses can exceed expectations. Historical or backtest results do not predict future results. No profit or accuracy is guaranteed.
 - The dashboard, forecasts, news labels, and AI are informational and educational, not financial/investment advice or an offer, recommendation, or managed service. Users make and verify their own decisions.
 - Tax figures are estimates for discussion with a qualified professional, not tax or legal advice. Rules and eligibility depend on facts and the applicable year.
-- Current app is local-only and has no user authentication. Do not expose it to the internet or share its port. The app currently has no privacy policy, terms, cookie system, account deletion workflow, registered-advisor status verification, or formal legal review; add those before onboarding other users or monetizing it.
+- Current app is local-only and has no user authentication. Do not expose it to the internet or share its port. The repository now includes an informational privacy notice plus security, contribution, and conduct policies; these are project documentation, not legal advice or a substitute for jurisdiction-specific review. The app still has no user terms, cookie system, account-deletion workflow, registered-advisor status verification, or formal legal review; complete the relevant work before onboarding users or monetizing it.
 
 ## Release gates
 
@@ -55,3 +55,4 @@ This file turns the consolidated 364-item list into an implementable roadmap for
 2. Validate financial calculations with broker-specific fixtures and independent manual examples before relying on them.
 3. Keep credentials out of source files and logs; document local storage and retention.
 4. Complete security, privacy, tax, financial-regulatory, and marketplace legal review before external access, advice-like services, payments, referrals, or user-generated products.
+
